@@ -5,7 +5,7 @@ module.exports = {
   entry: {
     styledComponent: path.resolve(__dirname, "node_modules/styled-components"),
     reactDom: path.resolve(__dirname, "node_modules/react-dom"),
-
+    reactRouterDom: path.resolve(__dirname, "node_modules/react-router-dom"),
   },
   output: {
     filename: "[name].js",
